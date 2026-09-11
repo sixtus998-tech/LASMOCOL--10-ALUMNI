@@ -193,7 +193,7 @@
   .president-portrait{
     width:100%;
     max-width:320px;
-    aspect-ratio:1;
+    aspect-ratio:4/5;
     border-radius:50%;
     overflow:hidden;
     border:1px solid rgba(255,255,255,0.18);
@@ -263,11 +263,15 @@
   }
 
   /* ---------- Welcome / President's note ---------- */
-
-  .welcome-portrait{
+  .welcome{
     display:grid;
+    grid-template-columns:0.4fr 0.6fr;
+    gap:56px;
+    align-items:start;
+  }
+  .welcome-portrait{
     background:var(--mist);
-    border-radius:4px;
+    border-radius:50%;
     aspect-ratio:4/5;
     display:flex;
     align-items:center;

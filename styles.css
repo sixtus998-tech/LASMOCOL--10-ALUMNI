@@ -271,8 +271,8 @@
     background:var(--white);
   }
   .welcome-portrait{
-    display:flex;
-    flex-direction:column;
+    display:grid;
+    grid-template-columns:1fr;
     align-items:center;
     gap:16px;
     background:var(--white);

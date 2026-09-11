@@ -271,8 +271,7 @@
     background:var(--white);
   }
   .welcome-portrait{
-    background:var(--mist);
-    border-radius:50%;
+    background:var(--white);
     aspect-ratio:4/5;
     display:flex;
     align-items:center;

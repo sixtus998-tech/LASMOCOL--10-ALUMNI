@@ -193,7 +193,7 @@
   .president-portrait{
     width:100%;
     max-width:220px;
-    aspect-ratio:4/5;
+    aspect-ratio:4.9/5;
     border-radius:4px;
     overflow:hidden;
     border:1px solid rgba(255,255,255,0.18);
@@ -272,7 +272,7 @@
   .welcome-portrait{
     background:var(--mist);
     border-radius:4px;
-    aspect-ratio:4/5;
+    aspect-ratio:4.9/5;
     display:flex;
     align-items:center;
     justify-content:center;

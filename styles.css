@@ -268,6 +268,7 @@
     grid-template-columns:0.4fr 0.6fr;
     gap:56px;
     align-items:start;
+    background:var(--white);
   }
   .welcome-portrait{
     background:var(--mist);

@@ -198,7 +198,7 @@
     overflow:hidden;
     border:1px solid rgba(255,255,255,0.18);
   }
-  .president-portrait img{width:100%;height:50%;object-fit:cover;}
+  .president-portrait img{width:100%;height:100%;object-fit:cover;}
   .btn{
     display:inline-flex;
     align-items:center;
@@ -271,8 +271,6 @@
     background:var(--white);
   }
   .welcome-portrait{
-    align-items:center;
-    gap:16px;
     background:var(--white);
     aspect-ratio:4/5;
     display:flex;

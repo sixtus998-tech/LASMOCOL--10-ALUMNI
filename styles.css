@@ -296,8 +296,8 @@
     color:var(--navy);
     font-weight:500;
   }
-  .welcome .welcome-portrait .signee{font-weight:700; color:var(--navy);}
-  .welcome .welcome-portrait .role{color:#5b6b81; font-size:14px;}
+  .welcome .signee{font-weight:700; color:var(--navy);}
+  .welcome .role{color:#5b6b81; font-size:14px;}
   @media (max-width:760px){
     .welcome{grid-template-columns:1fr;}
     .welcome-portrait{max-width:220px;}

@@ -271,6 +271,10 @@
     background:var(--white);
   }
   .welcome-portrait{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:16px;
     background:var(--white);
     aspect-ratio:4/5;
     display:flex;

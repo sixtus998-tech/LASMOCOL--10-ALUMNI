@@ -193,7 +193,7 @@
   .president-portrait{
     width:100%;
     max-width:320px;
-    aspect-ratio:3/5;
+    aspect-ratio:1/5;
     border-radius:50%;
     overflow:hidden;
     border:1px solid rgba(255,255,255,0.18);

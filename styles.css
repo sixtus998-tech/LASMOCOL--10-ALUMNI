@@ -120,6 +120,11 @@
     font-size:18px;
     cursor:pointer;
   }
+  #admin-portal{
+    background-color: var(--white);
+    color: var(--ink);
+    font-size: 20px;
+  }
 
   @media (max-width:900px){
     nav{

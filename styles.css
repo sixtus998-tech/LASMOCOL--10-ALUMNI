@@ -147,8 +147,8 @@
     nav ul{flex-direction:column;padding:8px 32px 20px;}
     nav a{padding:12px 4px;border-bottom:1px solid rgba(255,255,255,0.08);border-radius:0;}
     .nav-toggle{display:block;}
+    .admin-portal{ background-color: var(--white); color: var(--ink); font-size: 14.5px; font-family:'Inter', sans-serif; font-weight: 1000; transition:color 0.15s ease, background 0.15s ease; }
   }
-
   /* ---------- Hero ---------- */
   .hero{
     position:relative;

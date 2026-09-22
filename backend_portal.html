@@ -912,7 +912,7 @@
     const ok = await saveTransactions();
 
     if(ok){
-      statusEl.style.color = 'var(--forest)';
+      statusEl.style.color = 'var(--blue-light)';
       statusEl.textContent = 'Entry saved.';
       e.target.reset();
       document.getElementById('entry-date').value = todayISO();
@@ -922,7 +922,7 @@
       renderDashboard();
       renderLog();
     } else {
-      statusEl.style.color = 'var(--rust)';
+      statusEl.style.color = 'var(--red)';
       statusEl.textContent = 'Could not save — please try again.';
     }
 
@@ -1012,8 +1012,8 @@
       data: {
         labels: labels,
         datasets: [
-          { label: 'Revenue', data: revByMonth, backgroundColor: '#D4AF37' },
-          { label: 'Expense', data: expByMonth, backgroundColor: '#5C4A1E' }
+          { label: 'Revenue', data: revByMonth, backgroundColor: 'var(--blue-light)' },
+          { label: 'Expense', data: expByMonth, backgroundColor: 'var(--red' }
         ]
       },
       options: {
@@ -1022,7 +1022,7 @@
         scales: {
           x: { grid: { display: false }, ticks: { color: '#B7AE93', font: { family: 'IBM Plex Sans', size: 11 } } },
           y: {
-            grid: { color: '#2C2718' },
+            grid: { color: 'var(--blue-light)' },
             ticks: {
               color: '#B7AE93',
               font: { family: 'IBM Plex Sans', size: 11 },
